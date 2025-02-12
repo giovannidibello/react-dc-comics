@@ -27,6 +27,21 @@ nav ul {
   width: 100%;
 }
 
+/* MAIN */
+
+main {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.blue-strip {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0282f9;
+}
 
 a {
   font-weight: 500;
