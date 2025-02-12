@@ -102,9 +102,12 @@ footer a {
   color: #959595;
 }
 
-.footer-column li {
+.footer-column ul {
   list-style: none;
   color: white;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 15px;
 }
 
 .footer-sections {
@@ -123,7 +126,7 @@ footer a {
   width: 50%;
   background-image: url("/img/dc-logo-bg.png");
   background-repeat: no-repeat;
-  background-size: initial;
+  background-size: cover;
 }
 
 .footer-bottom {
@@ -136,8 +139,10 @@ footer a {
   justify-content: space-between;
 }
 
-.social-links a {
-  padding: 0 10px;
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .social-links span {
