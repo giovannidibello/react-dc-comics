@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <header>
             <div className="logo">
-                <img src="logo.png" alt="DC Logo" />
+                <img src="./img/dc-logo.png" alt="DC Logo" />
             </div>
             <nav>
                 <ul>
