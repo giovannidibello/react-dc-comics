@@ -1,20 +1,10 @@
 // Header.jsx
 
-// array di link
-const menuLinks = [
-    { id: 1, name: "Characters", href: "#" },
-    { id: 2, name: "Comics", href: "#" },
-    { id: 3, name: "Movies", href: "#" },
-    { id: 4, name: "TV", href: "#" },
-    { id: 5, name: "Games", href: "#" },
-    { id: 6, name: "Collectibles", href: "#" },
-    { id: 7, name: "Videos", href: "#" },
-    { id: 8, name: "Fans", href: "#" },
-    { id: 9, name: "News", href: "#" },
-    { id: 10, name: "Shop", href: "#" }
-];
 
-export default function Header() {
+export default function Header(props) {
+
+    const menuLinks = props.links;
+
     return (
 
         <header>
