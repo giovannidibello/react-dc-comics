@@ -1,4 +1,19 @@
 // Header.jsx
+
+// array di link
+const menuLinks = [
+    { name: "Characters", href: "#" },
+    { name: "Comics", href: "#" },
+    { name: "Movies", href: "#" },
+    { name: "TV", href: "#" },
+    { name: "Games", href: "#" },
+    { name: "Collectibles", href: "#" },
+    { name: "Videos", href: "#" },
+    { name: "Fans", href: "#" },
+    { name: "News", href: "#" },
+    { name: "Shop", href: "#" }
+];
+
 export default function Header() {
     return (
 
@@ -9,16 +24,9 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Collectibles</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Fans</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Shop</a></li>
+                        {menuLinks.map((menuLink) => (
+                            <li><a href={menuLink.href}>{menuLink.name}</a></li>
+                        ))}
                     </ul>
                 </nav>
             </div>
