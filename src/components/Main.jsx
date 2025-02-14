@@ -5,6 +5,10 @@ export default function Main() {
     return (
         <main>
 
+            <section className="jumbotron">
+
+            </section>
+
             <div className="container">
                 <section className="content">
                     <ProductsList />
