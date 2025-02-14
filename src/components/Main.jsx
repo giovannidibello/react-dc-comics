@@ -1,3 +1,5 @@
+import ProductsList from "./cards/ProductsList.jsx";
+
 // Main.jsx
 export default function Main() {
     return (
@@ -5,7 +7,7 @@ export default function Main() {
 
             <div className="container">
                 <section className="content">
-                    <h1>Content goes here</h1>
+                    <ProductsList />
                 </section>
             </div>
 

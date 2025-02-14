@@ -87,6 +87,27 @@ main a {
   padding: 0 10px;
 }
 
+/* card */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.prod-card {
+  flex-basis: 14%;
+  padding: 0 10px;
+  color: white;
+  font-size: 11px;
+}
+
+.prod-card img {
+  width: 120px;
+  height: 120px;
+}
+
 /* FOOTER */
 
 footer {
