@@ -12,7 +12,7 @@ Un progetto moderno e responsive che simula un sito di fumetti, con navigazione 
 
 ## 📸 Screenshot
 
-![Anteprima](./img/preview.png)
+![Anteprima](./public/preview.png)
 
 ## 🧱 Struttura dei Componenti
 
